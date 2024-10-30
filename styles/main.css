@@ -310,7 +310,7 @@ body .page-shop .subscribe-and-save-banner, body main .subscribe-and-save-banner
   margin: 180px auto 0 auto;
   width: 95%;
   border-radius: 2rem;
-  background: #f0f9ff url("../../assets/images/sns-benefits.webp") no-repeat right/contain;
+  background: #f0f9ff url("../assets/images/sns-benefits.webp") no-repeat right/contain;
   padding: 60px 70px;
 }
 @media screen and (max-width: 900px) {
@@ -834,7 +834,7 @@ body main .why-pawfy-section .row .text-container {
   width: 50%;
 }
 body main .why-pawfy-section .row .text-container li {
-  list-style-image: url("../../assets/images/icon-reports.svg");
+  list-style-image: url("../assets/images/icon-reports.svg");
   margin-bottom: 20px;
   padding-left: 13px;
 }
@@ -849,10 +849,10 @@ body main .why-pawfy-section .row .text-container li p {
   line-height: 1.7rem;
 }
 body main .why-pawfy-section .row .text-container li:nth-child(2) {
-  list-style-image: url("../../assets/images/icon-quality-list-style.svg");
+  list-style-image: url("../assets/images/icon-quality-list-style.svg");
 }
 body main .why-pawfy-section .row .text-container li:nth-child(3) {
-  list-style-image: url("../../assets/images/icon-innovation.svg");
+  list-style-image: url("../assets/images/icon-innovation.svg");
 }
 body main .why-pawfy-section .row .img-container {
   width: 53%;
