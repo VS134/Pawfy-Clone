@@ -160,7 +160,7 @@ body .next-btn, body .prev-btn {
 }
 
 .pawfy-promise-banner {
-  background-image: url("https://pawfy.com/cdn/shop/t/1/assets/promise.png");
+  background-image: url("../assets/images/promise-banner.webp");
   background-position: center;
   text-align: center;
   padding: 40px;
@@ -212,7 +212,7 @@ body .next-btn, body .prev-btn {
 }
 
 body .page-shop .review-section, body main .review-section {
-  background-image: url("../../assets/images/yellow-wavey-banner.svg");
+  background-image: url("../assets/images/yellow-wavey-banner.svg");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 900px;
@@ -519,7 +519,7 @@ body nav #mobile-nav .mobile-cart-container .mobile-cart-count {
   }
 }
 body .image-hero {
-  background-image: url("../../assets/images/hero-mask.webp");
+  background-image: url("../assets/images/hero-mask.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -670,7 +670,7 @@ body main .carousel-container .carousel .carousel-item .price .small-from-text, 
 body main .what-are-chews-section {
   display: flex;
   align-items: center;
-  background-image: url("../../assets/images/yellow-wavey-banner.svg");
+  background-image: url("../assets/images/yellow-wavey-banner.svg");
   justify-content: space-around;
   margin-bottom: -70px;
   padding: 65px 10px;
@@ -719,7 +719,7 @@ body main .did-you-know-section {
   text-align: center;
   width: 100%;
   padding: 150px 0;
-  background-image: url("../../assets/images/blue-wavey-banner.svg");
+  background-image: url("../assets/images/blue-wavey-banner.svg");
   background-size: cover;
 }
 body main .did-you-know-section .row {
@@ -740,7 +740,7 @@ body main .did-you-know-section p {
   margin-bottom: 60px;
 }
 body main .did-you-know-section .fact-container {
-  background-image: url("../../assets/images/did-you-know-bg-1.svg");
+  background-image: url("../assets/images/did-you-know-bg-1.svg");
   background-position: center;
   background-repeat: no-repeat;
   width: 290px;
@@ -1018,7 +1018,7 @@ body .page-shop .shop-grid .item-shop .price .small-from-text {
   font-size: 0.6rem;
 }
 body .story-page .image-hero-story {
-  background-image: url("../../assets/images/about-hero.webp");
+  background-image: url("../assets/images/about-hero.webp");
 }
 body .story-page .image-hero-story h1 {
   width: 50%;
@@ -1027,7 +1027,7 @@ body .story-page .image-hero-story h1 {
 }
 body .story-page .text-container-story-page {
   text-align: center;
-  background-image: url("../../assets/images/yellow-wavey-banner.svg");
+  background-image: url("../assets/images/yellow-wavey-banner.svg");
   background-position: center;
   background-size: cover;
   padding: 30px 0 60px 0;
@@ -1092,7 +1092,7 @@ body .story-page .pawfect-values {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../../assets/images/yellow-wavey-banner.svg");
+  background-image: url("../assets/images/yellow-wavey-banner.svg");
   background-size: cover;
   padding: 100px 0;
 }
@@ -1125,7 +1125,7 @@ body .story-page .pawfect-values .values-container .value .img {
 body .contact-us-page {
   padding: 160px 0;
   text-align: center;
-  background-image: url("../../assets/images/faq-blue.svg");
+  background-image: url("../assets/images/faq-blue.svg");
   background-repeat: no-repeat;
   background-position: 500px top;
 }
@@ -1175,7 +1175,7 @@ body .contact-us-page #contact-us-form textarea {
   margin-bottom: 15px;
 }
 body .faq-page {
-  background-image: url("../../assets/images/reflect.webp");
+  background-image: url("../assets/images/reflect.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-color: #feebe4;
@@ -1271,7 +1271,7 @@ body footer .email-submit-container button {
 body footer .row-2-footer {
   padding: 60px 40px 45px 40px;
   margin-top: 25px;
-  background-image: url("../../assets/images/yellow-wavey-banner.svg");
+  background-image: url("../assets/images/yellow-wavey-banner.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }

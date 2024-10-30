@@ -151,7 +151,7 @@ body {
   }
 
   .image-hero {
-    background-image: url('../../assets/images/hero-mask.webp');
+    background-image: url('../assets/images/hero-mask.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -338,7 +338,7 @@ body {
     .what-are-chews-section {
       display: flex;
       align-items: center;
-      background-image: url('../../assets/images/yellow-wavey-banner.svg');
+      background-image: url('../assets/images/yellow-wavey-banner.svg');
       justify-content: space-around;
       margin-bottom: -70px;
       padding: 65px 10px;
@@ -401,7 +401,7 @@ body {
       width: 100%;
       padding: 150px 0;
 
-      background-image: url('../../assets/images/blue-wavey-banner.svg');
+      background-image: url('../assets/images/blue-wavey-banner.svg');
       background-size: cover;
 
       .row {
@@ -428,7 +428,7 @@ body {
       }
 
       .fact-container {
-        background-image: url('../../assets/images/did-you-know-bg-1.svg');
+        background-image: url('../assets/images/did-you-know-bg-1.svg');
         background-position: center;
         background-repeat: no-repeat;
         width: 290px;
@@ -794,7 +794,7 @@ body {
 
   .story-page {
     .image-hero-story {
-      background-image: url('../../assets/images/about-hero.webp');
+      background-image: url('../assets/images/about-hero.webp');
 
       h1 {
         width: 50%;
@@ -808,7 +808,7 @@ body {
 
     .text-container-story-page {
       text-align: center;
-      background-image: url('../../assets/images/yellow-wavey-banner.svg');
+      background-image: url('../assets/images/yellow-wavey-banner.svg');
       background-position: center;
       background-size: cover;
 
@@ -895,7 +895,7 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
-      background-image: url('../../assets/images/yellow-wavey-banner.svg');
+      background-image: url('../assets/images/yellow-wavey-banner.svg');
       background-size: cover;
       padding: 100px 0;
 
@@ -936,7 +936,7 @@ body {
   .contact-us-page {
     padding: 160px 0;
     text-align: center;
-    background-image: url('../../assets/images/faq-blue.svg');
+    background-image: url('../assets/images/faq-blue.svg');
 
     background-repeat: no-repeat;
 
@@ -999,7 +999,7 @@ body {
 
   .faq-page {
     @extend %base-page-spacing;
-    background-image: url('../../assets/images/reflect.webp');
+    background-image: url('../assets/images/reflect.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-color: #feebe4;
@@ -1116,7 +1116,7 @@ body {
       padding: 60px 40px 45px 40px;
       margin-top: 25px;
 
-      background-image: url('../../assets/images/yellow-wavey-banner.svg');
+      background-image: url('../assets/images/yellow-wavey-banner.svg');
 
       background-repeat: no-repeat;
       background-size: cover;
