@@ -548,7 +548,7 @@ body {
           width: 50%;
 
           li {
-            list-style-image: url('../assets/images/icon-reports.svg');
+            list-style-image: url('../assets/images/icon-reports.svg?v=1');
             margin-bottom: 20px;
 
             padding-left: 13px;
@@ -568,11 +568,11 @@ body {
           }
 
           li:nth-child(2) {
-            list-style-image: url('../assets/images/icon-quality-list-style.svg');
+            list-style-image: url('../assets/images/icon-quality-list-style.svg?v=1');
           }
 
           li:nth-child(3) {
-            list-style-image: url('../assets/images/icon-innovation.svg');
+            list-style-image: url('../assets/images/icon-innovation.svg?v=1');
           }
         }
 

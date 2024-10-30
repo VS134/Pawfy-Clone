@@ -834,7 +834,7 @@ body main .why-pawfy-section .row .text-container {
   width: 50%;
 }
 body main .why-pawfy-section .row .text-container li {
-  list-style-image: url("../assets/images/icon-reports.svg");
+  list-style-image: url("../assets/images/icon-reports.svg?v=1");
   margin-bottom: 20px;
   padding-left: 13px;
 }
@@ -849,10 +849,10 @@ body main .why-pawfy-section .row .text-container li p {
   line-height: 1.7rem;
 }
 body main .why-pawfy-section .row .text-container li:nth-child(2) {
-  list-style-image: url("../assets/images/icon-quality-list-style.svg");
+  list-style-image: url("../assets/images/icon-quality-list-style.svg?v=1");
 }
 body main .why-pawfy-section .row .text-container li:nth-child(3) {
-  list-style-image: url("../assets/images/icon-innovation.svg");
+  list-style-image: url("../assets/images/icon-innovation.svg?v=1");
 }
 body main .why-pawfy-section .row .img-container {
   width: 53%;
