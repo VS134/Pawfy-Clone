@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="./assets/images/favicon.png" type="image/png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;700;800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Pawfy</title>
+  </head>
+
+  <body>
+    <ul class="mobile-drawer">
+      <li><a class="page-link-shop">SHOP</a></li>
+      <li><a class="reviews-link">REVIEWS</a></li>
+      <li><a class="faq-page-link">FAQ</a></li>
+      <li><a class="story-page-link">OUR STORY</a></li>
+      <li><a class="contact-us-page-link">CONTACT US</a></li>
+    </ul>
+    <nav id="nav">
+      <h2 class="home-logo">Pawfy</h2>
+
+      <ul id="desktop-nav">
+        <li><a class="page-link-shop">SHOP</a></li>
+        <li><a class="reviews-link">REVIEWS</a></li>
+        <li><a class="faq-page-link">FAQ</a></li>
+        <li><a class="story-page-link">OUR STORY</a></li>
+        <li><a class="contact-us-page-link">CONTACT US</a></li>
+        <li class="cart-container">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/cart.svg"
+            alt=""
+          />
+          <div class="cart-count">0</div>
+        </li>
+      </ul>
+
+      <div id="mobile-nav">
+        <div class="mobile-cart-container">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/cart.svg"
+            alt="shopping-cart"
+          />
+          <div class="mobile-cart-count">0</div>
+        </div>
+        <div>
+          <img
+            src="assets/images/menu-mobile-nav.svg"
+            alt=""
+            id="mobile-nav-menu"
+          />
+        </div>
+      </div>
+    </nav>
+
+    <div class="image-hero">
+      <h1>Better Pet Nutrition</h1>
+      <p>
+        Reward your pup with leading, locally-made nutrition backed by science.
+        All in one tasty chew.
+      </p>
+      <div class="image-hero-buttons-container">
+        <button class="black-bg-button page-link-shop">SHOP NOW</button>
+        <button id="quiz-button">QUIZ</button>
+      </div>
+    </div>
+
+    <main>
+      <div class="features">
+        <div class="feature-container">
+          <img src="assets/images//flag.svg" alt="" />
+          <h5>Made in USA</h5>
+        </div>
+        <div class="feature-container">
+          <img src="assets/images/boxTick.svg" alt="" />
+          <h5>Free Shipping</h5>
+        </div>
+        <div class="feature-container">
+          <img src="assets/images/ribbon.svg" alt="" />
+          <h5>30 Day Guarantee</h5>
+        </div>
+        <div class="feature-container">
+          <img src="assets/images/pills.svg" alt="" />
+          <h5>Vet Forumlated</h5>
+        </div>
+      </div>
+
+      <h3 class="section-heading">Best Sellers</h3>
+
+      <div class="carousel-container">
+        <button class="prev-btn">&larr;</button>
+        <button class="next-btn">&rarr;</button>
+
+        <div class="carousel">
+          <div class="carousel-item">
+            <img
+              src="assets/images/carousel-image.webp"
+              alt="allergy and immune packet of medicine for dogs"
+            />
+            <h4 class="carousel-item-title">Allergy Relief</h4>
+            <button class="add-to-cart">
+              <span class="right-arrow">&rarr;</span>ADD TO CART</button
+            ><span class="price"
+              ><span class="small-from-text">From</span>$20.00</span
+            >
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/pairelief.webp"
+              alt="allergy and immune packet of medicine for dogs"
+            />
+            <h4 class="carousel-item-title">Pain Relief</h4>
+            <button class="add-to-cart">
+              <span class="right-arrow">&rarr;</span>ADD TO CART</button
+            ><span class="price"
+              ><span class="small-from-text">From</span>$20.00</span
+            >
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/analglands_x400.webp"
+              alt="allergy and immune packet of medicine for dogs"
+            />
+            <h4 class="carousel-item-title">Anal Glands</h4>
+            <button class="add-to-cart">
+              <span class="right-arrow">&rarr;</span>ADD TO CART</button
+            ><span class="price"
+              ><span class="small-from-text">From</span>$20.00</span
+            >
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/calming.webp"
+              alt="allergy and immune packet of medicine for dogs"
+            />
+            <h4 class="carousel-item-title">Calming</h4>
+            <button class="add-to-cart">
+              <span class="right-arrow">&rarr;</span>ADD TO CART</button
+            ><span class="price"
+              ><span class="small-from-text">From</span>$20.00</span
+            >
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/multivitamin-cover.webp"
+              alt="allergy and immune packet of medicine for dogs"
+            />
+            <h4 class="carousel-item-title">Multivitamin</h4>
+            <button class="add-to-cart">
+              <span class="right-arrow">&rarr;</span>ADD TO CART</button
+            ><span class="price"
+              ><span class="small-from-text">From</span>$20.00</span
+            >
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/shop-hq-shampoo1.webp"
+              alt="allergy and immune packet of medicine for dogs"
+            />
+            <h4 class="carousel-item-title">Dog Wash</h4>
+            <button class="add-to-cart">
+              <span class="right-arrow">&rarr;</span>ADD TO CART</button
+            ><span class="price"
+              ><span class="small-from-text">From</span>$20.00</span
+            >
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/probiotic.webp"
+              alt="allergy and immune packet of medicine for dogs"
+            />
+            <h4 class="carousel-item-title">Probiotic</h4>
+            <button class="add-to-cart">
+              <span class="right-arrow">&rarr;</span>ADD TO CART</button
+            ><span class="price"
+              ><span class="small-from-text">From</span>$20.00</span
+            >
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/hipjoint.webp"
+              alt="allergy and immune packet of medicine for dogs"
+            />
+            <h4 class="carousel-item-title">Hip & Joint</h4>
+            <button class="add-to-cart">
+              <span class="right-arrow">&rarr;</span>ADD TO CART</button
+            ><span class="price"
+              ><span class="small-from-text">From</span>$20.00</span
+            >
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/skincoat.webp"
+              alt="allergy and immune packet of medicine for dogs"
+            />
+            <h4 class="carousel-item-title">Skin & Coat</h4>
+            <button class="add-to-cart">
+              <span class="right-arrow">&rarr;</span>ADD TO CART</button
+            ><span class="price"
+              ><span class="small-from-text">From</span>$20.00</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <button class="secondary-button page-link-shop">VIEW ALL</button>
+
+      <div class="what-are-chews-section">
+        <section class="text-container">
+          <h2>What Are <span>Pawfy Chews?</span></h2>
+          <p>
+            Our treats are as tasty as they look, but what’s inside is even more
+            impressive. Backed by real science, they include essential and
+            beneficial ingredients that are proven to help.
+          </p>
+          <p>
+            We’ve created a range of formulas targeting common problems, to help
+            deliver the right nutrients where they are needed most.
+          </p>
+
+          <p>
+            All of our products are vet-recommended and loved by the 500,000+
+            dogs that we’ve helped.
+          </p>
+          <button class="secondary-button page-link-shop">SHOP NOW</button>
+        </section>
+        <div class="img-container">
+          <img src="assets/images/what-are-chews.webp" alt="" />
+        </div>
+      </div>
+
+      <section class="did-you-know-section">
+        <h3 class="section-heading">Did You Know?</h3>
+        <p>YOUR DOG'S DIET & NUTRITION IMPACTS:</p>
+
+        <div class="row">
+          <div class="fact-container">
+            <img src="assets/images/did-you-know-title-bone.svg" alt="" />
+            <h6>LIFE EXPECTANCY BY UP TO</h6>
+            <h5>15%</h5>
+          </div>
+          <div class="fact-container">
+            <img src="assets/images/did-you-know-title-bone.svg" alt="" />
+            <h6>QUALITY OF THEIR</h6>
+            <h5>Life</h5>
+          </div>
+          <div class="fact-container">
+            <img src="assets/images/did-you-know-title-bone.svg" alt="" />
+            <h6>VET BILLS OVER THEIR</h6>
+            <h5>Lifetime</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="img-container">
+            <img
+              src="assets/images/did-you-know-image-lady-with-dog.webp"
+              alt=""
+            />
+          </div>
+          <div class="text-container">
+            <p>
+              DOGS HELP IMPROVE OUR LIFE IN SO MANY WAYS, IT'S TIME WE RETURN
+              THE FAVOR.
+            </p>
+
+            <p>
+              That's why <span>1 in 3 dog owners </span>give their best friends
+              the extra nutrition they need to power through life and protect
+              them.
+            </p>
+
+            <button class="secondary-button page-link-shop">SHOP NOW</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-pawfy-section">
+        <h3 class="section-heading">Why Pawfy?</h3>
+        <div class="row">
+          <ul class="text-container">
+            <li>
+              <h4>Labrador Reports</h4>
+              <p>
+                You need to know what’s in a supplement and why. Our ingredients
+                are hand-selected and make their way into a supplement for a
+                clear reason. Our clear Lab Reports give you the low down
+              </p>
+            </li>
+
+            <li>
+              <h4>Quality & Trust</h4>
+
+              <p>
+                Give your pup only the best. We know how important your fur baby
+                is. We only develop supplements we’d happily give to our own pet
+                using high-quality ingredients.
+              </p>
+            </li>
+
+            <li>
+              <h4>Innovation & Research</h4>
+              <p>
+                We take a fresh approach to pet health. We get to know the
+                problem so that we can create a tasty, health-boosting,
+                wag-tastic supplement. Our approach sets us apart.
+              </p>
+            </li>
+          </ul>
+
+          <div class="img-container">
+            <img src="assets/images/why-pawfy-dalmatian.webp" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <div class="review-section">
+        <h2>Customer <span>Reviews</span></h2>
+        <button class="prev-btn review-control-prev">&larr;</button>
+        <button class="next-btn review-control-next">&rarr;</button>
+        <div class="grids-container">
+          <div class="reviews-grid review-grid-1">
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?"
+              </p>
+            </div>
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?"
+              </p>
+            </div>
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?"
+              </p>
+            </div>
+            <div class="review-item mobile-hide">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?"
+              </p>
+            </div>
+
+            <div class="review-item mobile-hide">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                HIDE THIS "Lorem, ipsum dolor sit amet consectetur adipisicing
+                elit. Mollitia nobis explicabo reiciendis. Explicabo, libero,
+                neque unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatumas. A,
+                sapiente voluptatum?as. A, sapiente voluptatum?as. A, sapiente
+                voluptatum?as. A, sapiente voluptatum?as. A, sapiente
+                voluptatum??"
+              </p>
+            </div>
+            <div class="review-item mobile-hide">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                HIDE THIS Lorem, ipsum dolor sit amet consectetur adipisicing
+                elit. Mollitia nobis explicabo reiciendis. Explicabo, libero,
+                neque unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?as. A,
+                sapiente voluptatum?as. A, sapiente voluptatum?as. A, sapiente
+                voluptatum?
+              </p>
+            </div>
+          </div>
+
+          <div class="reviews-grid review-grid-2">
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?"
+              </p>
+            </div>
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?"
+              </p>
+            </div>
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?"
+              </p>
+            </div>
+            <div class="review-item mobile-hide">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?"
+              </p>
+            </div>
+
+            <div class="review-item mobile-hide">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatumas. A,
+                sapiente voluptatum?as. A, sapiente voluptatum?as. A, sapiente
+                voluptatum?as. A, sapiente voluptatum?as. A, sapiente
+                voluptatum??"
+              </p>
+            </div>
+            <div class="review-item mobile-hide">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?as. A,
+                sapiente voluptatum?as. A, sapiente voluptatum?as. A, sapiente
+                voluptatum?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="pawfy-promise-banner">
+          <h6>PAWFY PROMISE</h6>
+
+          <p>
+            If you or your pup aren't satisfied for any reason, we'll offer a
+            <span class="grey-banner-text">full refund</span> within 30 days.
+          </p>
+        </div>
+      </div>
+
+      <section class="bundle-deals-section">
+        <h3 class="section-heading">Bundled Nutrition, Better Savings</h3>
+        <p>
+          Double up your best friend's nutrition and save by choosing our
+          recommended duos below.
+        </p>
+
+        <div class="carousel-container-2">
+          <button class="prev-btn">&larr;</button>
+          <button class="next-btn">&rarr;</button>
+
+          <div class="carousel-2">
+            <div class="carousel-item-2">
+              <img
+                src="assets/images/dou-senior.webp"
+                alt="allergy and immune packet of medicine for dogs"
+              />
+              <h4 class="carousel-item-title">Senior Care</h4>
+              <p>Stronger joints and a lustrous coat.</p>
+              <button class="add-to-cart">
+                <span class="right-arrow">&rarr;</span>ADD TO CART
+              </button>
+              <span class="crossed-out-price">$80.00</span>
+              <span class="price">$70.00</span>
+            </div>
+            <div class="carousel-item-2">
+              <img
+                src="assets/images/dou-allergy.webp"
+                alt="allergy and immune packet of medicine for dogs"
+              />
+              <h4 class="carousel-item-title">Allergy Duo</h4>
+              <p>Protection from itching and allergies.</p>
+              <button class="add-to-cart">
+                <span class="right-arrow">&rarr;</span>ADD TO CART
+              </button>
+              <span class="crossed-out-price">$80.00</span>
+              <span class="price">$70.00</span>
+            </div>
+            <div class="carousel-item-2">
+              <img
+                src="assets/images/dou-complete.webp "
+                alt="allergy and immune packet of medicine for dogs"
+              />
+              <h4 class="carousel-item-title">Complete Care</h4>
+              <p>Pain relief from ageing hips & joints.</p>
+              <button class="add-to-cart">
+                <span class="right-arrow">&rarr;</span>ADD TO CART
+              </button>
+              <span class="crossed-out-price">$80.00</span>
+              <span class="price">$70.00</span>
+            </div>
+            <div class="carousel-item-2">
+              <img
+                src="assets/images/carousel-image.webp"
+                alt="allergy and immune packet of medicine for dogs"
+              />
+              <h4 class="carousel-item-title">Different Care</h4>
+              <p>Stronger joints and a lustrous coat.</p>
+              <button class="add-to-cart">
+                <span class="right-arrow">&rarr;</span>ADD TO CART
+              </button>
+              <span class="crossed-out-price">$80.00</span>
+              <span class="price">$70.00</span>
+            </div>
+            <div class="carousel-item-2">
+              <img
+                src="assets/images/carousel-image.webp"
+                alt="allergy and immune packet of medicine for dogs"
+              />
+              <h4 class="carousel-item-title">Junior Care</h4>
+              <p>Stronger joints and a lustrous coat.</p>
+              <button class="add-to-cart">
+                <span class="right-arrow">&rarr;</span>ADD TO CART
+              </button>
+              <span class="crossed-out-price">$80.00</span>
+              <span class="price">$70.00</span>
+            </div>
+            <div class="carousel-item-2">
+              <img
+                src="assets/images/carousel-image.webp"
+                alt="allergy and immune packet of medicine for dogs"
+              />
+              <h4 class="carousel-item-title">Incomplete Care</h4>
+              <p>Stronger joints and a lustrous coat.</p>
+              <button class="add-to-cart">
+                <span class="right-arrow">&rarr;</span>ADD TO CART
+              </button>
+              <span class="crossed-out-price">$80.00</span>
+              <span class="price">$70.00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="subscribe-and-save-banner">
+        <h3 class="section-heading">Subscribe and Save Benefits</h3>
+        <div class="features">
+          <div class="feature-container">
+            <img src="assets/images/snss-icon-1.svg" alt="" />
+            <h5>Up to 30% OFF</h5>
+          </div>
+          <div class="feature-container">
+            <img src="assets/images/snss-icon-2.svg" alt="" />
+            <h5>Free Shipping</h5>
+          </div>
+          <div class="feature-container">
+            <img src="assets/images/snss-icon-3.svg" alt="" />
+            <h5>No Commitments</h5>
+          </div>
+          <div class="feature-container">
+            <img src="assets/images/snss-icon-4.svg" alt="" />
+            <h5>Priority Support</h5>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="page-shop hide">
+      <input type="text" placeholder="Search All Products" id="shop-search" />
+
+      <div class="shop-grid">
+        <div class="item-shop">
+          <img
+            src="assets/images/carousel-image.webp"
+            alt="allergy and immune packet of medicine for dogs"
+          />
+          <h4 class="carousel-item-title">Allergy Relief</h4>
+          <h6>Defends from allergies & boosts immunity</h6>
+          <button class="add-to-cart">
+            <span class="right-arrow">&rarr;</span>ADD TO CART</button
+          ><span class="price"
+            ><span class="small-from-text">From</span>$20.00</span
+          >
+        </div>
+        <div class="item-shop">
+          <img
+            src="assets/images/probiotic.webp"
+            alt="allergy and immune packet of medicine for dogs"
+          />
+          <h4 class="carousel-item-title">Probiotic</h4>
+          <h6>Maintains healthy digestive system</h6>
+          <button class="add-to-cart">
+            <span class="right-arrow">&rarr;</span>ADD TO CART</button
+          ><span class="price"
+            ><span class="small-from-text">From</span>$20.00</span
+          >
+        </div>
+        <div class="item-shop">
+          <img
+            src="assets/images/skincoat.webp"
+            alt="allergy and immune packet of medicine for dogs"
+          />
+          <h4 class="carousel-item-title">Skin & Coat</h4>
+          <h6>Softens coat and soothes dry skin</h6>
+          <button class="add-to-cart">
+            <span class="right-arrow">&rarr;</span>ADD TO CART</button
+          ><span class="price"
+            ><span class="small-from-text">From</span>$20.00</span
+          >
+        </div>
+
+        <div class="item-shop">
+          <img
+            src="assets/images/hipjoint.webp"
+            alt="allergy and immune packet of medicine for dogs"
+          />
+          <h4 class="carousel-item-title">Hip & Joint</h4>
+          <h6>Increases flexibility and strengthens joints</h6>
+          <button class="add-to-cart">
+            <span class="right-arrow">&rarr;</span>ADD TO CART</button
+          ><span class="price"
+            ><span class="small-from-text">From</span>$20.00</span
+          >
+        </div>
+        <div class="item-shop">
+          <img
+            src="assets/images/pairelief.webp"
+            alt="allergy and immune packet of medicine for dogs"
+          />
+          <h4 class="carousel-item-title">Pain Relief</h4>
+          <h6>Alleviates pain, aches and discomfort</h6>
+          <button class="add-to-cart">
+            <span class="right-arrow">&rarr;</span>ADD TO CART</button
+          ><span class="price"
+            ><span class="small-from-text">From</span>$20.00</span
+          >
+        </div>
+        <div class="item-shop">
+          <img
+            src="assets/images/calming.webp"
+            alt="allergy and immune packet of medicine for dogs"
+          />
+          <h4 class="carousel-item-title">Calming</h4>
+          <h6>Reduces stress, tension and anxiety</h6>
+          <button class="add-to-cart">
+            <span class="right-arrow">&rarr;</span>ADD TO CART</button
+          ><span class="price"
+            ><span class="small-from-text">From</span>$20.00</span
+          >
+        </div>
+        <div class="item-shop">
+          <img
+            src="assets/images/multivitamin-cover.webp"
+            alt="allergy and immune packet of medicine for dogs"
+          />
+          <h4 class="carousel-item-title">Multivitamin</h4>
+          <h6>Supports overall health & immunity</h6>
+          <button class="add-to-cart">
+            <span class="right-arrow">&rarr;</span>ADD TO CART</button
+          ><span class="price"
+            ><span class="small-from-text">From</span>$20.00</span
+          >
+        </div>
+        <div class="item-shop">
+          <img
+            src="assets/images/shop-hq-eye-support.webp"
+            alt="allergy and immune packet of medicine for dogs"
+          />
+          <h4 class="carousel-item-title">Eye Support</h4>
+          <h6>Supports eye health & prevents tear stains</h6>
+          <button class="add-to-cart">
+            <span class="right-arrow">&rarr;</span>ADD TO CART</button
+          ><span class="price"
+            ><span class="small-from-text">From</span>$20.00</span
+          >
+        </div>
+        <div class="item-shop">
+          <img
+            src="assets/images/shop-urinary.webp"
+            alt="allergy and immune packet of medicine for dogs"
+          />
+          <h4 class="carousel-item-title">Urinary & Bladder</h4>
+          <h6>Supports urinary and bladder health</h6>
+          <button class="add-to-cart">
+            <span class="right-arrow">&rarr;</span>ADD TO CART</button
+          ><span class="price"
+            ><span class="small-from-text">From</span>$20.00</span
+          >
+        </div>
+
+        <div class="item-shop">
+          <img
+            src="assets/images/analglands_x400.webp"
+            alt="allergy and immune packet of medicine for dogs"
+          />
+          <h4 class="carousel-item-title">Anal Glands</h4>
+          <h6>Supports healthy anal glands and stool</h6>
+          <button class="add-to-cart">
+            <span class="right-arrow">&rarr;</span>ADD TO CART</button
+          ><span class="price"
+            ><span class="small-from-text">From</span>$20.00</span
+          >
+        </div>
+
+        <div class="item-shop">
+          <img
+            src="assets/images/shop-hq-shampoo1.webp"
+            alt="allergy and immune packet of medicine for dogs"
+          />
+          <h4 class="carousel-item-title">Dog Wash</h4>
+          <h6>Naturally cleans, conditions & moisturizes</h6>
+          <button class="add-to-cart">
+            <span class="right-arrow">&rarr;</span>ADD TO CART</button
+          ><span class="price"
+            ><span class="small-from-text">From</span>$20.00</span
+          >
+        </div>
+
+        <div class="item-shop">
+          <img
+            src="assets/images/dental-wash-cover-3.webp"
+            alt="allergy and immune packet of medicine for dogs"
+          />
+          <h4 class="carousel-item-title">Dental Wash</h4>
+          <h6>Freshens breath and reduces plaque</h6>
+          <button class="add-to-cart">
+            <span class="right-arrow">&rarr;</span>ADD TO CART</button
+          ><span class="price"
+            ><span class="small-from-text">From</span>$20.00</span
+          >
+        </div>
+      </div>
+
+      <div class="pawfy-promise-banner">
+        <h6>PAWFY PROMISE</h6>
+
+        <p>
+          If you or your pup aren't satisfied for any reason, we'll offer a
+          <span class="grey-banner-text">full refund</span> within 30 days.
+        </p>
+      </div>
+
+      <div class="review-section">
+        <h2>Customer <span>Reviews</span></h2>
+        <button class="prev-btn review-control-prev">&larr;</button>
+        <button class="next-btn review-control-next">&rarr;</button>
+
+        <div class="grids-container">
+          <div class="reviews-grid review-grid-1">
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?"
+              </p>
+            </div>
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?"
+              </p>
+            </div>
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?"
+              </p>
+            </div>
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?"
+              </p>
+            </div>
+
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatumas. A,
+                sapiente voluptatum?as. A, sapiente voluptatum?as. A, sapiente
+                voluptatum?as. A, sapiente voluptatum?as. A, sapiente
+                voluptatum??"
+              </p>
+            </div>
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?as. A,
+                sapiente voluptatum?as. A, sapiente voluptatum?as. A, sapiente
+                voluptatum?
+              </p>
+            </div>
+          </div>
+
+          <div class="reviews-grid review-grid-2">
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?"
+              </p>
+            </div>
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?"
+              </p>
+            </div>
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?"
+              </p>
+            </div>
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?"
+              </p>
+            </div>
+
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatumas. A,
+                sapiente voluptatum?as. A, sapiente voluptatum?as. A, sapiente
+                voluptatum?as. A, sapiente voluptatum?as. A, sapiente
+                voluptatum??"
+              </p>
+            </div>
+            <div class="review-item">
+              <h6>name</h6>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia nobis explicabo reiciendis. Explicabo, libero, neque
+                unde nihil fugit distinctio nobis vitae nesciunt sapiente
+                dolorum, aliquam dignissimos quas. A, sapiente voluptatum?as. A,
+                sapiente voluptatum?as. A, sapiente voluptatum?as. A, sapiente
+                voluptatum?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="subscribe-and-save-banner">
+        <h3 class="section-heading">Subscribe and Save Benefits</h3>
+        <div class="features">
+          <div class="feature-container">
+            <img src="assets/images/snss-icon-1.svg" alt="" />
+            <h5>Up to 30% OFF</h5>
+          </div>
+          <div class="feature-container">
+            <img src="assets/images/snss-icon-2.svg" alt="" />
+            <h5>Free Shipping</h5>
+          </div>
+          <div class="feature-container">
+            <img src="assets/images/snss-icon-3.svg" alt="" />
+            <h5>No Commitments</h5>
+          </div>
+          <div class="feature-container">
+            <img src="assets/images/snss-icon-4.svg" alt="" />
+            <h5>Priority Support</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="story-page hide">
+      <div class="image-hero image-hero-story">
+        <h1>
+          Treats made with love &
+          <span class="blue-text-highlight">good stuff</span>
+        </h1>
+        <h2>Quality – Science - Trust</h2>
+      </div>
+      <div class="text-container-story-page">
+        <h2>From our little friend to yours</h2>
+        <p>
+          Pawfy was created because of our love for our own pets. We realize the
+          importance of health and vitality to a pet’s happiness and how this
+          impacts on you and your family. That’s why it matters to us that every
+          ingredient makes its way into a Pawfy treat for a
+          scientifically-driven reason. Pawfy is about supplements that improve
+          pet lives and we are focused on results.
+        </p>
+      </div>
+
+      <div class="results-from-lab-section">
+        <section class="text-container">
+          <h2>Results from the Lab</h2>
+          <p>
+            <strong
+              >We create carefully balanced supplements backed by
+              science.</strong
+            >
+          </p>
+          <p>
+            We’ve done the research so that you know that whichever supplement
+            you choose we’d use the same one for our pet. We make all our
+            supplements locally because we care about quality, community and
+            transparency. This means we know exactly what is in every treat and
+            why.
+          </p>
+
+          <button class="secondary-button page-link-shop">SHOP NOW</button>
+        </section>
+        <div class="img-container">
+          <img src="assets/images/results-lab.webp" alt="" />
+        </div>
+      </div>
+
+      <div class="pawfy-promise-banner">
+        <h6>PAWFY PROMISE</h6>
+
+        <p>
+          If you or your pup aren't satisfied for any reason, we'll offer a
+          <span class="grey-banner-text">full refund</span> within 30 days.
+        </p>
+      </div>
+
+      <div class="pawfect-values">
+        <h2>Pawfect Values</h2>
+
+        <div class="values-container">
+          <div class="value">
+            <div class="img">
+              <img src="assets/images/icon-quality-list-style.svg" alt="" />
+            </div>
+            <h5>Quality & Trust</h5>
+            <h6>Only the best for our pets</h6>
+          </div>
+          <div class="value">
+            <div class="img">
+              <img src="assets/images/icon-reports.svg" />
+            </div>
+            <h5>Science & Results</h5>
+            <h6>Science backed & effective</h6>
+          </div>
+          <div class="value">
+            <div class="img">
+              <img src="assets/images/icon-approval.svg" alt="" />
+            </div>
+            <h5>Paws of Approval</h5>
+            <h6>Tastefully made to be delicious</h6>
+          </div>
+          <div class="value">
+            <div class="img">
+              <img src="assets/images/icon-heart.svg" alt="" />
+            </div>
+            <h5>Love & Local</h5>
+            <h6>Locally sourced & supporting locals</h6>
+          </div>
+          <div class="value">
+            <div class="img">
+              <img src="assets/images/icon-plus.svg" alt="" />
+            </div>
+            <h5>Health & Wellness</h5>
+            <h6>Proactively improving pet lives</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-us-page hide">
+      <h2>Contact Us</h2>
+      <p>
+        If you have any questions or concerns, please contact us using the form
+        below.
+      </p>
+
+      <p>We will respond in under 24 hours.</p>
+
+      <form id="contact-us-form">
+        <input
+          type="text"
+          placeholder="Your Name"
+          class="text-input"
+          id="contact-form-name"
+        />
+
+        <input
+          type="text"
+          placeholder="Your Email"
+          class="text-input"
+          id="contact-form-email"
+        />
+
+        <textarea
+          name="message-text-area"
+          placeholder="Message"
+          id="contact-form-message"
+        ></textarea>
+
+        <button id="submit-button-contact-form">Send</button>
+        <div
+          class="verification-message hide"
+          id="verification-message-contact-form"
+        >
+          Message sent successfully!
+        </div>
+
+        <div class="error-message hide" id="empty-fields-error-contact-form">
+          Please fill in all fields.
+        </div>
+
+        <div class="error-message hide" id="invalid-email-contact-form">
+          Please enter a valid email.
+        </div>
+      </form>
+
+      <p>
+        Alternatively, send us an email to
+        <a class="email-link">care@pawfy.com.</a>
+      </p>
+
+      <button class="faq-page-link">FAQ</button>
+    </div>
+
+    <div class="faq-page hide">
+      <h2>FAQ</h2>
+
+      <div class="faq-section">
+        <div class="heading">
+          <img src="assets/images/favicon.png" alt="" />
+          <h3>General</h3>
+        </div>
+
+        <div class="question-container">
+          <h3 class="question">Why Should I Give My Dog Pawfy Supplements?</h3>
+          <p class="answer">
+            We all want the best for our best friends. Our pawfy chews contain
+            essential and beneficial ingredients to help your best friend live
+            life to the fullest. Each of our formulas targets common problems,
+            and research has proven that our ingredients can significantly
+            improve your pet's health - especially when taken consistently. Best
+            of all, they taste great, so your pooch will love them too!
+          </p>
+        </div>
+        <div class="question-container">
+          <h3 class="question">How Old Should My Dog Be?</h3>
+          <p class="answer">
+            We recommend introducing the chews to your pooch's diet once they
+            reach 1 year old. For any concerns, please contact your vet.
+          </p>
+        </div>
+        <div class="question-container">
+          <h3 class="question">
+            Where is Your Product Formulated and What Are Their Credentials?
+          </h3>
+          <p class="answer">
+            Our products are manufactured in a US-based facility under current
+            Good Manufacturing Practice (cGMP) conditions. We work closely with
+            our manufacturer to ensure only the best quality ingredients are
+            used.
+          </p>
+        </div>
+        <div class="question-container">
+          <h3 class="question">
+            Where can I find The Ingredient List and Recommended Daily Intake?
+          </h3>
+          <p class="answer">
+            Please refer to the respective product pages on our website for a
+            detailed ingredient list and recommended intake. For any questions,
+            please contact care@pawfy.com.
+          </p>
+        </div>
+        <div class="question-container">
+          <h3 class="question">How Should I store Pawfy Chews?</h3>
+          <p class="answer">
+            We recommend storing Pawfy chews below 26°C and in a sealed package
+            or container.
+          </p>
+        </div>
+
+        <div class="question-container">
+          <h3 class="question">
+            Where Do You Ship To & How Long Before My Order Arrives?
+          </h3>
+          <p class="answer">
+            We ship US-wide. Once your order is processed, you can expect to
+            receive your order within Standard shipping within 2-5 days. For all
+            subscriptions and for one time purchases of 2+ jars, we offer free
+            shipping.
+          </p>
+        </div>
+        <div class="question-container">
+          <h3 class="question">How Much Does Shipping Cost?</h3>
+          <p class="answer">
+            For one time purchases of one jar of Pawfy chews, the shipping
+            charge is $5. For more than one jar or subscriptions, we offer free
+            shipping US-wide.
+          </p>
+        </div>
+        <div class="question-container">
+          <h3 class="question">
+            How Do I Return My Product and What is Your Refund Policy?
+          </h3>
+          <p class="answer">
+            We are confident your pooch will love the taste and health benefits
+            of Pawfy chews. We are so sure that if you or your pup aren't fully
+            satisfied, we offer a full refund within 30 days. To arrange a
+            refund, simply contact care@pawfy.com.
+          </p>
+        </div>
+      </div>
+      <div class="faq-banner">
+        <h3>Still have a question?</h3>
+        <p>
+          Contact our Care Team with any other questions or feedback you have
+        </p>
+        <button class="contact-us-page-link">Contact Us</button>
+      </div>
+    </div>
+
+    <footer>
+      <h3>Get 10% off your first order</h3>
+
+      <div class="email-submit-container">
+        <input
+          type="email"
+          placeholder="Enter your email"
+          name="email-discount-submit"
+          class="discount-email-field"
+        />
+        <button class="discount-submit-button">Submit</button>
+      </div>
+
+      <div class="verification-message hide" id="discount-verification-message">
+        <p>Discount sent successfully!</p>
+      </div>
+      <div class="error-message hide" id="invalid-email-message-footer">
+        <p>Please enter a valid email.</p>
+      </div>
+
+      <div class="row-2-footer">
+        <div class="link-wrapper">
+          <a class="page-link-shop">Shop</a>
+          <a class="faq-page-link">FAQ</a>
+          <a class="contact-us-page-link">Contact Us</a>
+          <a class="move-right">care@pawfy.com</a>
+          <a class="reviews-link">Reviews</a>
+          <a class="story-page-link">Our Story</a>
+          <a>My Subscriptions</a>
+
+          <a class="move-right">press@pawfy.com</a>
+        </div>
+
+        <div class="wrapper">
+          <div class="left">
+            <a>Privacy Policy </a> <span>|</span> <a>Terms & Conditions</a>
+          </div>
+
+          <div class="copyright">
+            <p>Copyright © Pawfy. All rights reserved.</p>
+          </div>
+
+          <div class="location">Pawfy Inc. Raleigh, NC, USA.</div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

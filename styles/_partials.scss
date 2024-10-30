@@ -1,0 +1,85 @@
+%image-hero-button-styles {
+  text-transform: uppercase;
+  border-radius: 100px;
+  border: 2.1px solid black;
+  background-color: transparent;
+  padding: 23px 72px;
+  font-size: 1.1rem;
+  letter-spacing: 1.2px;
+
+  font-weight: 500;
+
+  &:hover {
+    background-color: #000;
+    color: #fff;
+  }
+}
+
+%secondary-button {
+  @extend %image-hero-button-styles;
+  background-color: white;
+  margin: 40px 0;
+}
+
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%nav-cart-count-starter {
+  position: absolute;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background-color: $nav-text-color;
+  font-size: 0.6rem;
+}
+
+%carousel-container-styles {
+  width: 100%;
+
+  position: relative;
+}
+
+%carousel-styles {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+  scroll-behavior: smooth;
+  transition: transform 0.5s ease;
+
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+
+  &::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+}
+
+%base-page-spacing {
+  width: 100%;
+  padding-top: 100px;
+}
+
+%orange-text-highlight {
+  background-color: #ffcdbb;
+  border-radius: 3px;
+}
+
+%blue-text-highlight {
+  background-color: #d4e7f2;
+  border-radius: 3px;
+}
+
+//used to hide elements when switching pages and components//
+
+.home-logo {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}

@@ -1,0 +1,247 @@
+@import 'variables';
+@import 'partials';
+
+%carousel-btn-styles {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  left: 10px;
+  top: 200px;
+  width: 30px;
+  height: 30px;
+  font-size: 1.5rem;
+}
+
+.pawfy-promise-banner {
+  background-image: url('https://pawfy.com/cdn/shop/t/1/assets/promise.png');
+  background-position: center;
+  text-align: center;
+  padding: 40px;
+  border-radius: $banner-border-radius;
+  width: 95%;
+  margin: 50px auto;
+
+  h6 {
+    background-color: #8ea0e2;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 0.5rem;
+    margin-bottom: 11px;
+
+    @media screen and (max-width: 550px) {
+      font-size: 0.6rem;
+      border-radius: 0.4rem;
+      padding: 3px 8px;
+    }
+  }
+
+  p {
+    font-size: 2.4rem;
+
+    .grey-banner-text {
+      color: #8ea0e2;
+    }
+
+    @media screen and (max-width: 1190px) {
+      font-size: 1.9rem;
+    }
+
+    @media screen and (max-width: 777px) {
+      font-size: 1.6rem;
+    }
+
+    @media screen and (max-width: 550px) {
+      font-size: 1.3rem;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    width: 100%;
+    padding: 30px;
+  }
+}
+
+%review-section-styles {
+  background-image: url('../../assets/images/yellow-wavey-banner.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 900px;
+  position: relative;
+  padding-top: 120px;
+  width: 100%;
+  scroll-snap-align: start;
+  .prev-btn,
+  .next-btn {
+    top: 625px;
+
+    @media screen and (max-width: 900px) {
+      display: none;
+    }
+  }
+
+  h2 {
+    font-size: 3.3rem;
+    text-align: center;
+    padding-top: 40px;
+
+    span {
+      @extend %orange-text-highlight;
+    }
+
+    @media screen and (max-width: 650px) {
+      font-size: 2.8rem;
+    }
+  }
+
+  .grids-container {
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    display: flex;
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+    scroll-snap-align: start;
+    &::-webkit-scrollbar {
+      display: none; /* Safari and Chrome */
+    }
+  }
+
+  .reviews-grid {
+    display: grid;
+    margin-top: 10px;
+    align-items: center;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    @media screen and (max-width: 900px) {
+      grid-template-columns: 1fr 1fr;
+      padding: 20px;
+    }
+    @media screen and (max-width: 525px) {
+      grid-template-columns: 1fr;
+      padding: 0;
+    }
+  }
+}
+
+.review-item {
+  border-radius: 1.7rem;
+  scroll-snap-align: start;
+  padding: 33px;
+
+  background-color: #fff;
+  .rating {
+    margin: 7px 0;
+    font-size: 1.1rem;
+  }
+  h6 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 28px;
+    letter-spacing: 0.9px;
+    @media screen and (max-width: 1250px) {
+      font-size: 1rem;
+    }
+  }
+
+  .rating {
+    color: #fdbe84;
+  }
+}
+
+%subscribe-banner-styles {
+  display: flex;
+  flex-direction: column;
+  margin: 180px auto 0 auto;
+
+  width: 95%;
+  border-radius: $banner-border-radius;
+  background: #f0f9ff url('../../assets/images/sns-benefits.webp') no-repeat
+    right/contain;
+  padding: 60px 70px;
+
+  @media screen and (max-width: 900px) {
+    padding: 50px 50px;
+  }
+
+  @media screen and (max-width: 750px) {
+    padding: 25px;
+    min-height: 1000px;
+    width: 100%;
+    padding: 50px 0;
+    background-position: bottom right;
+  }
+
+  .section-heading {
+    font-size: 3.3rem;
+    text-align: start;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+
+    @media screen and (max-width: 920px) {
+      margin: 0 auto;
+      text-align: center;
+      width: 70%;
+      font-size: 3rem;
+    }
+
+    @media screen and (max-width: 750px) {
+      margin: 0 auto;
+      text-align: center;
+      font-size: 2.8rem;
+
+      width: 90%;
+    }
+  }
+
+  .features {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 30px 0 0 0;
+    justify-content: space-between;
+    text-align: center;
+
+    @media screen and (max-width: 1135px) {
+      width: 75%;
+    }
+
+    @media screen and (max-width: 920px) {
+      width: 100%;
+    }
+
+    @media screen and (max-width: 750px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+.feature-container {
+  @extend %flex-center;
+
+  flex-direction: column;
+
+  h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+}
+
+.verification-message {
+  color: green;
+  font-size: 18px;
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+  font-size: 18px;
+  text-align: center;
+}
