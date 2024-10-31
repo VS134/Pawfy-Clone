@@ -1191,6 +1191,16 @@ body .faq-page .faq-section {
   width: 54%;
   margin: 35px auto;
 }
+@media screen and (max-width: 850px) {
+  body .faq-page .faq-section {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 560px) {
+  body .faq-page .faq-section {
+    width: 95%;
+  }
+}
 body .faq-page .faq-section .heading {
   display: flex;
   align-items: center;
@@ -1200,11 +1210,16 @@ body .faq-page .faq-section .heading {
 }
 body .faq-page .faq-section .heading img {
   height: 35px;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 body .faq-page .faq-section .question-container .question {
   border-bottom: 1.8px solid #e3e1e4;
   padding: 24px 0 12px 0;
+}
+@media screen and (max-width: 560px) {
+  body .faq-page .faq-section .question-container .question {
+    text-align: center;
+  }
 }
 body .faq-page .faq-section .question-container .answer {
   padding: 12px 0 18px 0;
@@ -1216,14 +1231,36 @@ body .faq-page .faq-banner {
   margin: 130px auto 0 auto;
   padding: 65px 52px;
   border-radius: 1rem;
+  text-align: center;
+}
+@media screen and (max-width: 850px) {
+  body .faq-page .faq-banner {
+    margin-top: 90px;
+  }
+}
+@media screen and (max-width: 560px) {
+  body .faq-page .faq-banner {
+    margin-top: 60px;
+    width: 100%;
+  }
 }
 body .faq-page .faq-banner h3 {
   font-size: 2.3rem;
   margin-bottom: 26px;
 }
+@media screen and (max-width: 560px) {
+  body .faq-page .faq-banner h3 {
+    font-size: 2rem;
+  }
+}
 body .faq-page .faq-banner p {
   margin-bottom: 32px;
   font-size: 1.25rem;
+}
+@media screen and (max-width: 560px) {
+  body .faq-page .faq-banner p {
+    font-size: 1rem;
+  }
 }
 body .faq-page .faq-banner button {
   padding: 15px 52px;

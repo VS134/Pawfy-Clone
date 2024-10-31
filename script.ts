@@ -38,7 +38,6 @@ function hideMobileNavDrawer(scrollToTop: boolean): void {
     window.scroll({
       top: 0,
       left: 0,
-      behavior: 'smooth',
     });
   }
 }
@@ -174,9 +173,6 @@ const shopPage = document.querySelector('.page-shop') as HTMLDivElement;
 
 shopLinks.forEach((link) => {
   link.addEventListener('click', () => {
-    // homePage.classList.add('hide');
-    // imageHero.classList.add('hide');
-    // shopPage.style.display = 'flex';
     showPage(currentPage, shopPage);
     hideMobileNavDrawer(true);
     currentPage = 'shop';
@@ -276,9 +272,6 @@ const cartCountMobile = document.querySelector(
   '.mobile-cart-count'
 ) as HTMLDivElement;
 
-// cartCountDesktop.innerText = localStorage.getItem('cartCount') as string;
-// cartCountMobile.innerText = localStorage.getItem('cartCount') as string;
-
 addToCartButtons.forEach((button) => {
   button.addEventListener('click', () => {
     const updatedCartCount = (
@@ -286,8 +279,6 @@ addToCartButtons.forEach((button) => {
     ).toString();
     cartCountDesktop.innerText = updatedCartCount;
     cartCountMobile.innerText = updatedCartCount;
-
-    // localStorage.setItem('cartCount', updatedCartCount);
   });
 });
 

@@ -30,7 +30,6 @@ function hideMobileNavDrawer(scrollToTop) {
         window.scroll({
             top: 0,
             left: 0,
-            behavior: 'smooth',
         });
     }
 }
@@ -137,9 +136,6 @@ var imageHero = document.querySelector('.image-hero');
 var shopPage = document.querySelector('.page-shop');
 shopLinks.forEach(function (link) {
     link.addEventListener('click', function () {
-        // homePage.classList.add('hide');
-        // imageHero.classList.add('hide');
-        // shopPage.style.display = 'flex';
         showPage(currentPage, shopPage);
         hideMobileNavDrawer(true);
         currentPage = 'shop';
@@ -201,14 +197,11 @@ reviewLinks.forEach(function (link) {
 var addToCartButtons = document.querySelectorAll('.add-to-cart');
 var cartCountDesktop = document.querySelector('.cart-count');
 var cartCountMobile = document.querySelector('.mobile-cart-count');
-// cartCountDesktop.innerText = localStorage.getItem('cartCount') as string;
-// cartCountMobile.innerText = localStorage.getItem('cartCount') as string;
 addToCartButtons.forEach(function (button) {
     button.addEventListener('click', function () {
         var updatedCartCount = (parseInt(cartCountDesktop.innerText) + 1).toString();
         cartCountDesktop.innerText = updatedCartCount;
         cartCountMobile.innerText = updatedCartCount;
-        // localStorage.setItem('cartCount', updatedCartCount);
     });
 });
 //Our Story Page//
